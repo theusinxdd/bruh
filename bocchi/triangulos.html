@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    var side1 = +prompt("Comprimento do lado 1", "1");
+var side2 = +prompt("Comprimento do lado 2", "1");
+var side3 = +prompt("Comprimento do lado 3", "1");
+
+function determineTriangle() {
+	if (Number.isNaN(side1 + side2 + side3)) {
+		
+		return "Valores inválidos! O comprimento dos lados deve ser apenas em números";
+	} else if (side1 + side2 <= side3 || side1 + side3 <= side2 || side2 + side3 <= side1) {
+
+		return "Valores inválidos! A soma do comprimento de quaisquer dois lados de um triângulo deve sempre exceder o comprimento do terceiro";
+	}  else {
+		if (side1 == side2 && side2 == side3) {
+		
+			return "O triângulo é EQUILÁTERO";
+		} else if (side1 == side2 || side2 == side3) {
+	
+			return  "O triângulo é ISÓSCELES";
+		} else {
+
+			return "O triângulo é ESCALENO";
+		}
+	}
+}
+var side1 = +prompt("Comprimento do lado 1", "1");
+var side2 = +prompt("Comprimento do lado 2", "1");
+var side3 = +prompt("Comprimento do lado 3", "1");
+
+function determineTriangle() {
+	if (Number.isNaN(side1 + side2 + side3)) {
+		
+		return "Valores inválidos! O comprimento dos lados deve ser apenas em números";
+	} else if (side1 + side2 <= side3 || side1 + side3 <= side2 || side2 + side3 <= side1) {
+
+		return "Valores inválidos! A soma do comprimento de quaisquer dois lados de um triângulo deve sempre exceder o comprimento do terceiro";
+	}  else {
+		if (side1 == side2 && side2 == side3) {
+		
+			return "O triângulo é EQUILÁTERO";
+		} else if (side1 == side2 || side2 == side3) {
+	
+			return  "O triângulo é ISÓSCELES";
+		} else {
+
+			return "O triângulo é ESCALENO";
+		}
+	}
+}
+var side1 = +prompt("Comprimento do lado 1", "1");
+var side2 = +prompt("Comprimento do lado 2", "1");
+var side3 = +prompt("Comprimento do lado 3", "1");
+
+function determineTriangle() {
+	if (Number.isNaN(side1 + side2 + side3)) {
+		
+		return "Valores inválidos! O comprimento dos lados deve ser apenas em números";
+	} else if (side1 + side2 <= side3 || side1 + side3 <= side2 || side2 + side3 <= side1) {
+
+		return "Valores inválidos! A soma do comprimento de quaisquer dois lados de um triângulo deve sempre exceder o comprimento do terceiro";
+	}  else {
+		if (side1 == side2 && side2 == side3) {
+		
+			return "O triângulo é EQUILÁTERO";
+		} else if (side1 == side2 || side2 == side3) {
+	
+			return  "O triângulo é ISÓSCELES";
+		} else {
+
+			return "O triângulo é ESCALENO";
+		}
+	}
+}
+
+window.alert(determineTriangle());
+</script>
+</body>
+</html>
